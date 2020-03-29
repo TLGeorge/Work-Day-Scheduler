@@ -10,21 +10,27 @@
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+
   <title>Work Day Scheduler</title>
+
 </head>
 
 <body>
+  <!-- App Title & Description -->
   <header class="jumbotron">
     <h1 class="display-3">Work Day Scheduler</h1>
-    <p class="lead">Use this amazing app to organize your hectic life from sunrise to sunset! </p>
-    <p id="currentDay" class="lead"></p>
+    <p class="lead">Use this amazing app to organize your hectic 9-5 schedule!</p>
+    <br>
+    <div class="time-block">
+      <p id="currentDay" class="lead"></p>
+    </div>
   </header>
   <div class="container">
 
     <!-- Scheduler Hours-of-Day Rows.-->
     <div class="container">
-      <!-- 9 AM Row  -->
-      <div id="9am" class="row no-gutter">
+      <!-- 9 AM   -->
+      <div id="9" class="row no-gutter">
         <div class="hour col-sm-1">
           <p class="hour-style">9 am</p>
         </div>
@@ -37,8 +43,8 @@
           </button>
         </div>
       </div>
-      <!-- 10 AM -->
-      <div id="10am" class="row no-gutter">
+      <!-- 10 AM  -->
+      <div id="10" class="row no-gutter">
         <div class="hour col-sm-1">
           <p class="hour-style">10 am</p>
         </div>
@@ -50,7 +56,7 @@
         </div>
       </div>
       <!-- 11 AM -->
-      <div id="11am" class="row no-gutter">
+      <div id="11" class="row no-gutter">
         <div class="hour col-sm-1">
           <p class="hour-style">11 am</p>
         </div>
@@ -62,7 +68,7 @@
         </div>
       </div>
       <!-- 12 PM -->
-      <div id="12pm" class="row no-gutter">
+      <div id="12" class="row no-gutter">
         <div class="hour col-sm-1">
           <p class="hour-style">12 pm</p>
         </div>
@@ -74,7 +80,7 @@
         </div>
       </div>
       <!-- 1 PM -->
-      <div id="1pm" class="row no-gutter">
+      <div id="1" class="row no-gutter">
         <div class="hour col-sm-1">
           <p class="hour-style">1 pm</p>
         </div>
@@ -86,7 +92,7 @@
         </div>
       </div>
       <!-- 2 PM -->
-      <div id="2pm" class="row no-gutter">
+      <div id="2" class="row no-gutter">
         <div class="hour col-sm-1">
           <p class="hour-style">2 pm</p>
         </div>
@@ -98,7 +104,7 @@
         </div>
       </div>
       <!-- 3 PM -->
-      <div id="3pm" class="row no-gutter">
+      <div id="3" class="row no-gutter">
         <div class="hour col-sm-1">
           <p class="hour-style">3 pm</p>
         </div>
@@ -110,7 +116,7 @@
         </div>
       </div>
       <!-- 4 PM -->
-      <div id="4pm" class="row no-gutter">
+      <div id="4" class="row no-gutter">
         <div class="hour col-sm-1">
           <p class="hour-style">4 pm</p>
         </div>
@@ -122,7 +128,7 @@
         </div>
       </div>
       <!-- 5 PM -->
-      <div id="5pm" class="row no-gutter">
+      <div id="5" class="row no-gutter">
         <div class="hour col-sm-1">
           <p class="hour-style">5 pm</p>
         </div>
@@ -136,9 +142,10 @@
     </div>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-  <script src="script.js"></script>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="script.js"></script>
 
 </html>

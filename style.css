@@ -1,8 +1,8 @@
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color:#149c08;
-  border-radius: 0;
+  color:#0b5204;
+  border-radius: 0px;
   border-bottom: 10px solid black;
 }
 
@@ -10,6 +10,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  margin-bottom: 40px;
 }
 
 .description{
@@ -18,12 +19,11 @@ body {
 
 .time-block{
   text-align: center;
-  border-radius: 15px;
+  margin-top: 20px;
+  padding-bottom: 0px;
 }
 
 .row {
-  white-space: pre-wrap;
-  height: 80px;
   border-top: 1px solid white;;
 }
 
@@ -75,12 +75,15 @@ textarea{
 }
 
 .saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: rgb(44, 206, 11);
-  color: white;
-}
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-width: 0px;
+  height: 120px;
+  width: 120px;
+  background-color: #149c08;
+  align-items: center;
+  align-content: center;
+  }
 
 .saveBtn:hover {
   font-size: 20px;

@@ -42,7 +42,7 @@ $(".saveBtn").on("click", function (event) {
 
 });
 
-//inputting info into local storage
+//Add user's input to form via local storage
 $("#9amActivity").val(localStorage.getItem("save9am"));
 $("10amActivity").val(localStorage.getItem("save10am"));
 $("#11amActivity").val(localStorage.getItem("save11am"));
@@ -53,9 +53,9 @@ $("#3pmActivity").val(localStorage.getItem("save3pm"));
 $("#4pmActivity").val(localStorage.getItem("save4pm"));
 $("#5pmActivity").val(localStorage.getItem("save5pm"));
 
-//--------------------------------------
-//COLOR CHANGE
-//form changes color based on the hour
+
+//Change color on form based on time: past/present/future 
+
 function updateBg() {
     var currentHour = moment().hours();
     $(".row").each(function () {
@@ -71,6 +71,7 @@ function updateBg() {
             $(this).removeClass("past");
             $(this).removeClass("present");
             $(this).addClass("future");
+            console.log("future")
         }
 
     });
