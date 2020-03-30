@@ -27,10 +27,7 @@ var Activity4pm = $("#4pmActivity");
 var save4pm = $("#save4pm");
 var Activity5pm = $("#5pmActivity");
 var save5pm = $("#save5pm");
-var Activity8pm = $("#8pmActivity");
-var save8pm = $("#save8pm");
-var Activity9pm = $("#9pmActivity");
-var save9pm = $("#save9pm");
+
 
 //save button to input info into rows
 $(".saveBtn").on(".click", function (event) {
@@ -56,8 +53,7 @@ $("#2pmActivity").val(localStorage.getItem("save2pm"));
 $("#3pmActivity").val(localStorage.getItem("save3pm"));
 $("#4pmActivity").val(localStorage.getItem("save4pm"));
 $("#5pmActivity").val(localStorage.getItem("save5pm"));
-$("#8pmActivity").val(localStorage.getItem("save8pm"));
-$("#9pmActivity").val(localStorage.getItem("save9pm"));
+
 
 //Change color on form based on time: past/present/future 
 
