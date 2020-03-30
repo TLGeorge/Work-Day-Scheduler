@@ -1,42 +1,16 @@
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: rgb(5, 82, 5);
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
   margin-bottom: 40px;
-}
-
-.jumbotron {
-  text-align: center;
-  background-color: transparent;
-  color: #155315;
-  border-radius: 0px;
-  border-bottom: 10px solid black;
-}
-
-.description{
-  white-space: pre-wrap;
-}
-
-.time-block {
-  text-align: center;
-  margin-top: 20px;
-  padding-bottom: 0px;
-}
-
-.row {
-  border-top: 1px solid white;
-}
-
-.hour {
-  background-color: white;
-  color: #000000;
-  border-top: 1px dashed #000000;
-}
-
-.hour-style {
-  text-align: right;
-  margin-right: 10px;
-  margin-top: 10px;
 }
 
 textarea{
@@ -48,59 +22,70 @@ textarea{
   padding: 10px;
 }
 
+.description{
+  white-space: pre-wrap;
+}
+
+.time-block{
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 0px;
+}
+
+.row {
+  border-top: 1px solid white;;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.hour-style {
+  text-align: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
 .past {
-  background-color: #b1ee95;
+  background-color: #c5e9a8;
   color: white;
 }
 
 .present {
-  background-color: #5bb607;
+  background-color: #149c08;
   color: white;
 }
 
 .future {
-  background-color: #086908;
+  background-color: #f7bf08;
   color: white;
-}
-
-.btnBg {
-  background-color: white;
-  border-left: 1px solid black;
-
 }
 
 .saveBtn {
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  background-color: rgb(11, 56, 3);
-  align-content: center;
-  border-width: 0px;
-  align-items: center;
-  height: 60px;
-  width: 60px;
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #149c08;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.btnBg{
+  background-color: white;
+  border-left: 1px solid black;
 }
 
 i {
-  color: white;
-  align-items: center;
+color: white;
+align-items: center;
 }
 
 i:hover {
   color: #000000;
-}
-
-.saveBtn:hover {
-  font-size: 20px;
-  color: #000000;
-  transition: all .3s ease-in-out;
-}
-
-.no-gutter > [class*='col-'] {
-  padding-right:0;
-  padding-left:0;
-}
-
-fieldset {
-  margin-top: 30px;
-  margin-bottom: 50px;
 }
